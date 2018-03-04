@@ -9,5 +9,6 @@ The archetype we chose was Maven's "quickstart" archetype
 
 We then edited the pom.xml file and exchanged the JUnit dependency to 4.12 to use a newer version.
 
+We added test cases for the `Person` class and then also mocked some dependencies using Mockito.
 
 If you have questions about this exercise, open an issue.
