@@ -13,7 +13,7 @@ The steps taken to create this project were:
  * add a folder `META-INF` in [src/main/resources](src/main/resources) + a [persistence.xml](src/main/resources/META-INF/persistence.xml) in the `META-INF`, add DERBY configuration
  * create a [Person.java](src/main/java/ch/unige/pinfo/jpaIntro/Person.java) class
  * add the JPA annotations (`@Entity, @Table, @Id, @Column, ...`) + getters + setters + default constructor (and a nicer one)
- * add the full qualifying class name (incl. packages) within a `class`-tag to [persistence.xml](src/main/resources/META-INF/persistence.xml)
+ * add the full qualifying class name (incl. packages) within a `class`-tag to [persistence.xml](src/main/resources/META-INF/persistence.xml#L5)
 
  * create a [test](src/test/java) source folder by creating the `test/java` subfolders for the `src` subfolder
  * write a [JUnit-Test](src/test/java/ch/unige/pinfo/jpaIntro/PersonTest.java) that will persist to the DB using an `EntityManager`
@@ -24,6 +24,6 @@ The steps taken to create this project were:
 ## What I did after the lecture (for you to explore!):
 
  * Add an  [Address.java](src/main/java/ch/unige/pinfo/jpaIntro/Address.java) class + annotate with JPA
- * add it to [persistence.xml](src/main/resources/META-INF/persistence.xml)
+ * add it to [persistence.xml](src/main/resources/META-INF/persistence.xml#L6)
  * Create an [AddressType.java](src/main/java/ch/unige/pinfo/jpaIntro/AddressType.java) Enum
  * Write a second test within the testfile to show off the cascading effect + ManyToMany mappings
