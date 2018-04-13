@@ -21,7 +21,6 @@ public class Bakery {
 	 */
 	@Inject
 	IBaker baker;
-	
 	public Bakery() {}
 	
 	/*
